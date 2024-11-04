@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4431E9752CD8A53D0096B6EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4431E9732CD8A53D0096B6EB /* Preview Assets.xcassets */; };
+		4431E9762CD8A53D0096B6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4431E9742CD8A53D0096B6EB /* Assets.xcassets */; };
 		444C044F2CD896CA002C67FD /* RocketControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C044E2CD896CA002C67FD /* RocketControllerApp.swift */; };
 		444C04572CD896CC002C67FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444C04562CD896CC002C67FD /* Preview Assets.xcassets */; };
 		444C04612CD896CC002C67FD /* RocketControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C04602CD896CC002C67FD /* RocketControllerTests.swift */; };
@@ -14,8 +16,6 @@
 		444C046D2CD896CC002C67FD /* RocketControllerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C046C2CD896CC002C67FD /* RocketControllerUITestsLaunchTests.swift */; };
 		444C047B2CD896FF002C67FD /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 444C047A2CD896FF002C67FD /* SwiftUICharts */; };
 		444C049C2CD89902002C67FD /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C047E2CD89902002C67FD /* Rocket.swift */; };
-		444C049D2CD89902002C67FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444C047F2CD89902002C67FD /* Assets.xcassets */; };
-		444C049E2CD89902002C67FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 444C04812CD89902002C67FD /* Preview Assets.xcassets */; };
 		444C04A02CD89902002C67FD /* BTUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C04842CD89902002C67FD /* BTUUIDs.swift */; };
 		444C04A12CD89902002C67FD /* BTUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C04852CD89902002C67FD /* BTUtils.swift */; };
 		444C04A22CD89902002C67FD /* BluetoothManagerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C04862CD89902002C67FD /* BluetoothManagerHelper.swift */; };
@@ -58,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4431E9732CD8A53D0096B6EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4431E9742CD8A53D0096B6EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		444C044B2CD896CA002C67FD /* RocketController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		444C044E2CD896CA002C67FD /* RocketControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketControllerApp.swift; sourceTree = "<group>"; };
 		444C04542CD896CC002C67FD /* RocketController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RocketController.entitlements; sourceTree = "<group>"; };
@@ -68,8 +70,6 @@
 		444C046A2CD896CC002C67FD /* RocketControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketControllerUITests.swift; sourceTree = "<group>"; };
 		444C046C2CD896CC002C67FD /* RocketControllerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketControllerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		444C047E2CD89902002C67FD /* Rocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
-		444C047F2CD89902002C67FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../RocketAssistant/RocketAssistant/Assets.xcassets; sourceTree = "<group>"; };
-		444C04812CD89902002C67FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		444C04842CD89902002C67FD /* BTUUIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTUUIDs.swift; sourceTree = "<group>"; };
 		444C04852CD89902002C67FD /* BTUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTUtils.swift; sourceTree = "<group>"; };
 		444C04862CD89902002C67FD /* BluetoothManagerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManagerHelper.swift; sourceTree = "<group>"; };
@@ -120,6 +120,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4431E9722CD8A53D0096B6EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4431E9732CD8A53D0096B6EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		444C04422CD896CA002C67FD = {
 			isa = PBXGroup;
 			children = (
@@ -145,11 +153,11 @@
 			children = (
 				444C044E2CD896CA002C67FD /* RocketControllerApp.swift */,
 				444C047E2CD89902002C67FD /* Rocket.swift */,
+				4431E9742CD8A53D0096B6EB /* Assets.xcassets */,
+				4431E9722CD8A53D0096B6EB /* Preview Content */,
 				444C048A2CD89902002C67FD /* EDF.swift */,
 				444C048B2CD89902002C67FD /* ChartStyle.swift */,
-				444C047F2CD89902002C67FD /* Assets.xcassets */,
 				444C04542CD896CC002C67FD /* RocketController.entitlements */,
-				444C04802CD89902002C67FD /* Preview Content */,
 				444C04832CD89902002C67FD /* Bluetooth */,
 				444C048D2CD89902002C67FD /* Views */,
 				444C04552CD896CC002C67FD /* Preview Content */,
@@ -180,15 +188,6 @@
 				444C046C2CD896CC002C67FD /* RocketControllerUITestsLaunchTests.swift */,
 			);
 			path = RocketControllerUITests;
-			sourceTree = "<group>";
-		};
-		444C04802CD89902002C67FD /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				444C04812CD89902002C67FD /* Preview Assets.xcassets */,
-			);
-			name = "Preview Content";
-			path = "../../RocketAssistant/RocketAssistant/Preview Content";
 			sourceTree = "<group>";
 		};
 		444C04832CD89902002C67FD /* Bluetooth */ = {
@@ -335,9 +334,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				444C049E2CD89902002C67FD /* Preview Assets.xcassets in Resources */,
+				4431E9752CD8A53D0096B6EB /* Preview Assets.xcassets in Resources */,
+				4431E9762CD8A53D0096B6EB /* Assets.xcassets in Resources */,
 				444C04572CD896CC002C67FD /* Preview Assets.xcassets in Resources */,
-				444C049D2CD89902002C67FD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
